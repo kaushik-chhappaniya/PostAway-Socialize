@@ -1,0 +1,38 @@
+{
+  "name": "postaway",
+  "version": "1.0.0",
+  "description": "A social media networking platform backend, that lets users to post, like, commment on the users posts.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushik-chhappaniya/PostAway-Socialize.git"
+  },
+  "type": "module",
+  "keywords": [
+    "social",
+    "media",
+    "platform",
+    "api-backend",
+    "networking",
+    "platform",
+    "middlewares",
+    "jwtAuth"
+  ],
+  "author": "Kaushik Chhappaniya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaushik-chhappaniya/PostAway-Socialize/issues"
+  },
+  "homepage": "https://github.com/kaushik-chhappaniya/PostAway-Socialize#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "winston": "^3.13.1"
+  }
+}
